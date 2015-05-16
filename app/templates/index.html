@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>testing db</title>
+</head>
+<body>
+	<ul>
+	{% for user in users %}
+		<li>{{user}}	</li>
+	{% endfor %}				
+
+	</ul>
+
+	<h2>direcciones</h2>
+
+	<ul>
+	{% for receta in recetas %}
+		<li>{{receta.nombre}}	</li>
+	{% endfor %}				
+
+	</ul>
+	
+</body>
+</html>
